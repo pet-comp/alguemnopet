@@ -5,9 +5,9 @@
 #define LED LED_BUILTIN //led pin number
 // Initialize Wifi connection to the router 
 const char* ssid     = "Molotov"; 
-const char* password = "741852963"; 
+const char* password = ""; 
 // Initialize Telegram BOT 
-const char BotToken[] = "1305351200:AAHnlql7YK3TVRGZCLbgkyeh_lEY4ERfP6o"; 
+const char BotToken[] = ""; 
 WiFiClientSecure net_ssl; 
 TelegramBot bot (BotToken, net_ssl); 
 // the number of the LED pin   
