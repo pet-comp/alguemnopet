@@ -7,7 +7,7 @@
 
 #ifndef STASSID
 #define STASSID "Molotov"
-#define STAPSK  "741852963"
+#define STAPSK  ""
 #endif
 
 const char* ssid     = STASSID;
