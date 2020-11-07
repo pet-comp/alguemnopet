@@ -2,7 +2,7 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 #include <TelegramBot.h>
-#define BOTtoken "1305351200:AAHnlql7YK3TVRGZCLbgkyeh_lEY4ERfP6o"//Define o Token do *seu* BOT
+#define BOTtoken ""//Define o Token do *seu* BOT
 
 WiFiClientSecure client;
 TelegramBot bot(BOTtoken, client);
