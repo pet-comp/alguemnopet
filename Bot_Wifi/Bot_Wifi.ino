@@ -35,7 +35,7 @@ void connect()//Funçao para Conectar ao wifi e verificar à conexao.
 {
    if (WiFi.status() != WL_CONNECTED)//Caso nao esteja conectado ao WiFi, Ira conectarse
    {
-      WiFi.begin("Molotov", "741852963");//Insira suas informaçoes da rede
+      WiFi.begin("Molotov", "");//Insira suas informaçoes da rede
       delay(2000);
    }
 }
