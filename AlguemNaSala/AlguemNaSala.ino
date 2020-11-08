@@ -47,7 +47,7 @@ void setup() {
 int AlguemNaSala()
 {
   valorLuz = analogRead(pinoSensorLuz);        
-  if(valorLuz<300)
+  if(valorLuz<600)
   {                
     return 0;
   }
@@ -77,10 +77,7 @@ void loop() {
           client.println("Connection: close");  // the connection will be closed after completion of the response
           client.println("Refresh: 5");  // refresh the page automatically every 5 sec
           client.println();
-          client.println("<!DOCTYPE HTML>");
-          client.println("<html>");
           client.print(AlguemNaSala());
-          client.println("</html>");
           break;
         }
         if (c == '\n') {
